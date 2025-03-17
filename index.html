@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GameZone - O melhor em jogos e entretenimento</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Game<span>Zone</span></a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#games">Jogos</a></li>
+                    <li><a href="#news">Notícias</a></li>
+                    <li><a href="#newsletter">Inscreva-se</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <div class="mobile-menu">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Entre no mundo dos <span style="color: var(--accent);">jogos</span></h1>
+            <p>Descubra os melhores títulos, novidades e ofertas exclusivas em nossa plataforma de jogos premium.</p>
+            <a href="#games" class="btn">Explorar Jogos</a>
+        </div>
+    </section>
+
+    <section id="games" class="section">
+        <h2 class="section-title">Jogos em <span>Destaque</span></h2>
+        <div class="games-grid">
+            <div class="game-card">
+                <img src="/api/placeholder/300/180" alt="Jogo 1">
+                <div class="game-info">
+                    <h3>Legends of Valor</h3>
+                    <div class="rating">★★★★★</div>
+                    <p>Um épico RPG de aventura em um mundo aberto repleto de magia e desafios.</p>
+                    <div class="price">R$ 199,90</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="/api/placeholder/300/180" alt="Jogo 2">
+                <div class="game-info">
+                    <h3>Cyber Racer 2077</h3>
+                    <div class="rating">★★★★☆</div>
+                    <p>Corridas futuristas em uma cidade cyberpunk cheia de neon e tecnologia.</p>
+                    <div class="price">R$ 149,90</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="/api/placeholder/300/180" alt="Jogo 3">
+                <div class="game-info">
+                    <h3>Shadow Tactics</h3>
+                    <div class="rating">★★★★★</div>
+                    <p>Um jogo de estratégia e stealth onde cada movimento precisa ser calculado.</p>
+                    <div class="price">R$ 89,90</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="/api/placeholder/300/180" alt="Jogo 4">
+                <div class="game-info">
+                    <h3>Cosmic Explorers</h3>
+                    <div class="rating">★★★★☆</div>
+                    <p>Explore galáxias distantes e descubra segredos do universo neste simulador espacial.</p>
+                    <div class="price">R$ 129,90</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="news-section">
+        <div class="news-container">
+            <h2 class="section-title">Últimas <span>Notícias</span></h2>
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="/api/placeholder/500/300" alt="Notícia 1">
+                </div>
+                <div class="news-content">
+                    <span class="date">17 de Março, 2025</span>
+                    <h3>Novo Battle Royale bate recorde de jogadores online</h3>
+                    <p>O lançamento de "Warzone Masters" atraiu mais de 10 milhões de jogadores em seu primeiro fim de semana, estabelecendo um novo recorde na indústria.</p>
+                    <a href="#" class="read-more">Ler mais</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="/api/placeholder/500/300" alt="Notícia 2">
+                </div>
+                <div class="news-content">
+                    <span class="date">15 de Março, 2025</span>
+                    <h3>Desenvolvedora brasileira ganha prêmio internacional</h3>
+                    <p>O estúdio independente "Pixel Dreams" conquistou o prêmio de "Melhor Jogo Indie" no Festival de Games de Tokyo com seu jogo "Amazônia Mística".</p>
+                    <a href="#" class="read-more">Ler mais</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="/api/placeholder/500/300" alt="Notícia 3">
+                </div>
+                <div class="news-content">
+                    <span class="date">12 de Março, 2025</span>
+                    <h3>Nova geração de consoles anunciada para 2026</h3>
+                    <p>Os principais fabricantes de consoles anunciaram seus planos para o lançamento de uma nova geração com tecnologia de realidade aumentada integrada.</p>
+                    <a href="#" class="read-more">Ler mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="news-btn-container">
+            <a href="#" class="btn btn-outline">Ver todas as notícias</a>
+        </div>
+    </section>
+
+    <section class="promo-section">
+        <div class="promo-content">
+            <h2>Promoção da Semana</h2>
+            <h3>50% de desconto em jogos selecionados</h3>
+            <p>Aproveite nossa promoção especial com descontos incríveis em diversos títulos premiados.</p>
+            <div class="countdown">
+                <div class="countdown-item">
+                    <span id="days">03</span>
+                    <span>Dias</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">18</span>
+                    <span>Horas</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">45</span>
+                    <span>Minutos</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">22</span>
+                    <span>Segundos</span>
+                </div>
+            </div>
+            <a href="#" class="btn btn-accent">Ver Promoções</a>
+        </div>
+    </section>
+
+    <section id="newsletter" class="newsletter-section">
+        <div class="newsletter-container">
+            <div class="newsletter-content">
+                <h2>Fique por dentro das novidades</h2>
+                <p>Inscreva-se em nossa newsletter e receba as últimas notícias, lançamentos e ofertas exclusivas diretamente no seu e-mail.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Seu melhor e-mail" required>
+                <button type="submit" class="btn">Inscrever-se</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <h2 class="section-title">O que nossos <span>jogadores</span> dizem</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">
+                    <img src="/api/placeholder/80/80" alt="Avatar 1">
+                </div>
+                <div class="testimonial-content">
+                    <h4>Rafael Santos</h4>
+                    <div class="rating">★★★★★</div>
+                    <p>"A melhor plataforma de jogos que já utilizei! Atendimento rápido e jogos sempre atualizados."</p>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">
+                    <img src="/api/placeholder/80/80" alt="Avatar 2">
+                </div>
+                <div class="testimonial-content">
+                    <h4>Camila Oliveira</h4>
+                    <div class="rating">★★★★★</div>
+                    <p>"Promoções incríveis e uma comunidade super ativa. Recomendo para todos os gamers!"</p>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">
+                    <img src="/api/placeholder/80/80" alt="Avatar 3">
+                </div>
+                <div class="testimonial-content">
+                    <h4>Lucas Mendes</h4>
+                    <div class="rating">★★★★☆</div>
+                    <p>"Os melhores preços do mercado e uma seleção de jogos impressionante. Não troco por nada!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#">Game<span>Zone</span></a>
+                <p>O seu destino para jogos e entretenimento digital desde 2020.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#games">Jogos</a></li>
+                        <li><a href="#news">Notícias</a></li>
+                        <li><a href="#newsletter">Newsletter</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Suporte</h4>
+                    <ul>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Categorias</h4>
+                    <ul>
+                        <li><a href="#">Ação</a></li>
+                        <li><a href="#">Aventura</a></li>
+                        <li><a href="#">Estratégia</a></li>
+                        <li><a href="#">Esportes</a></li>
+                        <li><a href="#">RPG</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">FB</a>
+                        <a href="#" class="social-icon">IG</a>
+                        <a href="#" class="social-icon">TW</a>
+                        <a href="#" class="social-icon">YT</a>
+                        <a href="#" class="social-icon">DC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 <a href="https://www.linkedin.com/in/marcos-grocha/" target="_blank">GameZone</a>. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
